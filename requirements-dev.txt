@@ -1,1 +1,6 @@
 ipykernel==7.1.0
+jupyter==1.1.1
+notebook==7.5.0
+pyzmq==27.1.0
+setuptools==80.9.0
+wheel==0.45.1
