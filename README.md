@@ -24,13 +24,14 @@ As the industry shifts from deterministic coding to probabilistic systems, this 
 
 The repository is organized into strategic domains of AI Engineering. Each domain focuses on a specific set of skills and technologies:
 
-| Domain                         | Description                                                           | Key Technologies                     |
-| :----------------------------- | :-------------------------------------------------------------------- | :----------------------------------- |
-| **01. GenAI Foundations**      | Prompt engineering, API integration, and model behavior analysis.     | `OpenAI`, `Anthropic`, `HuggingFace` |
-| **02. Cognitive Architecture** | Retrieval-Augmented Generation (RAG) and Vector Search strategies.    | `ChromaDB`, `Pinecone`, `LlamaIndex` |
-| **03. Autonomous Systems**     | Agentic workflows, tool use, and multi-agent orchestration.           | `LangChain`, `LangGraph`, `AutoGen`  |
-| **04. AI Governance**          | Reliability engineering, safety guardrails, and evaluation metrics.   | `TruLens`, `Guardrails AI`, `Arize`  |
-| **05. Edge & Optimization**    | Efficient inference and deploying models to constrained environments. | `TinyML`, `ONNX`, `Quantization`     |
+| Domain                         | Description                                                           | Key Technologies                       |
+| :----------------------------- | :-------------------------------------------------------------------- | :------------------------------------- |
+| **01. ML & Deep Learning**     | Foundations of supervised/unsupervised learning and neural networks.  | `scikit-learn`, `TensorFlow`, `OpenAI` |
+| **02. GenAI Foundations**      | Prompt engineering, API integration, and model behavior analysis.     | `OpenAI`, `Anthropic`, `HuggingFace`   |
+| **03. Cognitive Architecture** | Retrieval-Augmented Generation (RAG) and Vector Search strategies.    | `ChromaDB`, `Pinecone`, `LlamaIndex`   |
+| **04. Autonomous Systems**     | Agentic workflows, tool use, and multi-agent orchestration.           | `LangChain`, `LangGraph`, `AutoGen`    |
+| **05. AI Governance**          | Reliability engineering, safety guardrails, and evaluation metrics.   | `TruLens`, `Guardrails AI`, `Arize`    |
+| **06. Edge & Optimization**    | Efficient inference and deploying models to constrained environments. | `TinyML`, `ONNX`, `Quantization`       |
 
 ## 🏗️ Philosophy: "Software 3.0"
 
@@ -43,12 +44,14 @@ This project adopts a "Software 3.0" mindset, treating Neural Networks and LLMs 
 ## 📂 Repository Structure
 
 ```text
-├── 📓 notebooks/          # Interactive learning modules (Jupyter)
-│   ├── 01_foundations/    # Basics of Prompt Engineering & APIs
+├── 📓 notebooks/               # Interactive research & learning modules
+│   ├── 01_foundations/         # ML Fundamentals & Prompt Engineering
+│   ├── 02_rag_vectors/         # RAG Architecture & Vector Databases
+│   ├── 03_agents_tools/        # Autonomous Agents & Tool Integration
 │   └── ...
-├── 📦 src/                # Modular Python source code
-├── 💾 data/               # Raw and processed datasets
-└── 📄 requirements.txt    # Project dependencies
+├── 📦 src/                     # Core logic and modular Python source
+├── 💾 data/                    # Managed datasets for training/testing
+└── 📄 requirements.txt         # Project-wide dependencies
 ```
 
 ## 🚀 Usage & Setup
