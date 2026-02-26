@@ -44,6 +44,8 @@ This project adopts a "Software 3.0" mindset, treating Neural Networks and LLMs 
 ## 📂 Repository Structure
 
 ```text
+├── 📘 docs/                    # Theoretical notes & course documentation
+│   └── claude_code/            # Claude Code DeepLearning.AI notes
 ├── 📓 notebooks/               # Interactive research & learning modules
 │   ├── 01_foundations/         # ML Fundamentals & Prompt Engineering
 │   ├── 02_rag_vectors/         # RAG Architecture & Vector Databases
@@ -96,6 +98,6 @@ If you're interested in the source material, I highly recommend enrolling in the
 
 <div align="center">
 
-_Engineered by David Armando Rodriguez Varon_
+_Engineered by David Armando Rodríguez Varón_
 
 </div>
