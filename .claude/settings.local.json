@@ -1,5 +1,7 @@
 {
-  "enabledPlugins": {
-    "example-skills@anthropic-agent-skills": true
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)"
+    ]
   }
 }
